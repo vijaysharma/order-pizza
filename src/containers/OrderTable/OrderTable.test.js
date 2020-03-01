@@ -1,35 +1,33 @@
 import React from 'react';
-
-import {configure, shallow} from 'enzyme';
+import {Provider} from 'react-redux';
+import renderer from 'react-test-renderer';
+import configureStore from 'redux-mock-store';
+import {configure} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import OrderTable from './OrderTable';
-import PizzaSlice from '../../components/PizzaSlice/PizzaSlice';
-import Person from '../../components/Person/Person';
-import * as ButtonClasses from '../../ui/CounterButton/CounterButton.module.css';
 
+const mockStore = configureStore([]);
 configure({adapter: new Adapter()});
 
 describe('<OrderTable/>', () => {
+  let store;
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<OrderTable />);
-  });
-
-  it('should render <OrderTable/> component', () => {
-    expect(wrapper.exists()).toBe(true);
+    store = mockStore({
+      pizza: {small: 0, medium: 1, large: 0},
+      person: {adults: 1, children: 0},
+      totalPrice: 200
+    });
+    wrapper = renderer.create(
+      <Provider store={store}>
+        <OrderTable />
+      </Provider>
+    );
   });
 
   it('should render <OrderTable/> correctly', () => {
-    expect(wrapper).toMatchSnapshot();
-  });
-
-  it('should render <OrderTable/> component with 3 PizzaSlice', () => {
-    expect(wrapper.find(PizzaSlice)).toHaveLength(3);
-  });
-
-  it('should render <OrderTable/> component with 2 Person', () => {
-    expect(wrapper.find(Person)).toHaveLength(2);
+    expect(wrapper.toJSON()).toMatchSnapshot();
   });
 
 });

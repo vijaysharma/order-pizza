@@ -1,3 +1,354 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<OrderTable/> should render <OrderTable/> correctly 1`] = `ShallowWrapper {}`;
+exports[`<OrderTable/> should render <OrderTable/> correctly 1`] = `
+<div>
+  <h1>
+    Order 
+    <span>
+      Pizza
+    </span>
+  </h1>
+  <div>
+    <div>
+      <div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-pizza-slice fa-w-16 "
+          data-icon="pizza-slice"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M158.87.15c-16.16-1.52-31.2 8.42-35.33 24.12l-14.81 56.27c187.62 5.49 314.54 130.61 322.48 317l56.94-15.78c15.72-4.36 25.49-19.68 23.62-35.9C490.89 165.08 340.78 17.32 158.87.15zm-58.47 112L.55 491.64a16.21 16.21 0 0 0 20 19.75l379-105.1c-4.27-174.89-123.08-292.14-299.15-294.1zM128 416a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm48-152a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm104 104a32 32 0 1 1 32-32 32 32 0 0 1-32 32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <span>
+          SMALL
+        </span>
+      </div>
+      <div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-minus-circle fa-w-16  "
+          data-icon="minus-circle"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zM124 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H124z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <span>
+          0
+        </span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus-circle fa-w-16 "
+          data-icon="plus-circle"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+    <div>
+      <div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-pizza-slice fa-w-16 "
+          data-icon="pizza-slice"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M158.87.15c-16.16-1.52-31.2 8.42-35.33 24.12l-14.81 56.27c187.62 5.49 314.54 130.61 322.48 317l56.94-15.78c15.72-4.36 25.49-19.68 23.62-35.9C490.89 165.08 340.78 17.32 158.87.15zm-58.47 112L.55 491.64a16.21 16.21 0 0 0 20 19.75l379-105.1c-4.27-174.89-123.08-292.14-299.15-294.1zM128 416a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm48-152a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm104 104a32 32 0 1 1 32-32 32 32 0 0 1-32 32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <span>
+          MEDIUM
+        </span>
+      </div>
+      <div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-minus-circle fa-w-16  "
+          data-icon="minus-circle"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zM124 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H124z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <span>
+          1
+        </span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus-circle fa-w-16 "
+          data-icon="plus-circle"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+    <div>
+      <div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-pizza-slice fa-w-16 "
+          data-icon="pizza-slice"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M158.87.15c-16.16-1.52-31.2 8.42-35.33 24.12l-14.81 56.27c187.62 5.49 314.54 130.61 322.48 317l56.94-15.78c15.72-4.36 25.49-19.68 23.62-35.9C490.89 165.08 340.78 17.32 158.87.15zm-58.47 112L.55 491.64a16.21 16.21 0 0 0 20 19.75l379-105.1c-4.27-174.89-123.08-292.14-299.15-294.1zM128 416a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm48-152a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm104 104a32 32 0 1 1 32-32 32 32 0 0 1-32 32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <span>
+          LARGE
+        </span>
+      </div>
+      <div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-minus-circle fa-w-16  "
+          data-icon="minus-circle"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zM124 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H124z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <span>
+          0
+        </span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus-circle fa-w-16 "
+          data-icon="plus-circle"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </div>
+    </div>
+    <div>
+      <span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-user fa-w-14 "
+          data-icon="user"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </span>
+      <h2>
+        ADULTS
+      </h2>
+      <div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-minus-circle fa-w-16  "
+            data-icon="minus-circle"
+            data-prefix="fas"
+            focusable="false"
+            onClick={[Function]}
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zM124 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H124z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+          <span>
+            1
+          </span>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-plus-circle fa-w-16 "
+            data-icon="plus-circle"
+            data-prefix="fas"
+            focusable="false"
+            onClick={[Function]}
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-child fa-w-12 "
+          data-icon="child"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M120 72c0-39.765 32.235-72 72-72s72 32.235 72 72c0 39.764-32.235 72-72 72s-72-32.236-72-72zm254.627 1.373c-12.496-12.497-32.758-12.497-45.254 0L242.745 160H141.254L54.627 73.373c-12.496-12.497-32.758-12.497-45.254 0-12.497 12.497-12.497 32.758 0 45.255L104 213.254V480c0 17.673 14.327 32 32 32h16c17.673 0 32-14.327 32-32V368h16v112c0 17.673 14.327 32 32 32h16c17.673 0 32-14.327 32-32V213.254l94.627-94.627c12.497-12.497 12.497-32.757 0-45.254z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </span>
+      <h2>
+        CHILDREN
+      </h2>
+      <div>
+        <div>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-minus-circle fa-w-16  "
+            data-icon="minus-circle"
+            data-prefix="fas"
+            focusable="false"
+            onClick={[Function]}
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zM124 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H124z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+          <span>
+            0
+          </span>
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-plus-circle fa-w-16 "
+            data-icon="plus-circle"
+            data-prefix="fas"
+            focusable="false"
+            onClick={[Function]}
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h4>
+      Order 
+      <span>
+        Total
+      </span>
+    </h4>
+    <span>
+      200
+    </span>
+  </div>
+</div>
+`;

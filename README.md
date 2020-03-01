@@ -11,8 +11,13 @@ There are four folders to organise this project
     * This holds higher order components. Here I have only one. <Aux />. We can use React.Fragment as well. I wanted to have hoc structure in my project.
 * ui
     * This hold only non-functional stateless UI specific components.
+* store
+    * This folder contains the redux store reducer and actions.
 
-
+### To run this project locally
+* clone this repository `git clone https://github.com/vijaysharma/order-pizza.git`
+* run `npm install`
+* Point your browser to `http://localhost:3000`
 ## Available Scripts
 
 In the project directory, you can run:
