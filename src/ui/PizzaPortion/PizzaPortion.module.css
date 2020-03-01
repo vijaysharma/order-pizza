@@ -1,0 +1,33 @@
+.PizzaSlice {
+  color: #283688;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.PizzaSlice span {
+  display: inline-block;
+  margin: 0 2.5rem;
+  width: 5rem;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.SmallSlice, .MediumSlice, .LargeSlice {
+  vertical-align: middle;
+}
+
+.PizzaSlice .SmallSlice, .PizzaSlice .MediumSlice, .PizzaSlice .LargeSlice {
+  width: 1.5rem;
+}
+
+.SmallSlice {
+  font-size: 1.25rem;
+}
+
+.MediumSlice {
+  font-size: 1.5rem;
+}
+
+.LargeSlice {
+  font-size: 1.75rem;
+}

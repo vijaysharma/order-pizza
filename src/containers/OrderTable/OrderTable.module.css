@@ -1,0 +1,46 @@
+.OrderTableWrapper {
+  color: #283688;
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.OrderTable {
+  border: 2px solid #8b8b8b;
+  padding: 1rem;
+}
+
+.OrderTitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.OrderTitle span {
+  font-weight: 700;
+}
+.OrderTotal {
+  display: flex;
+  align-content: center;
+  padding: 1.5rem;
+}
+.OrderTotal > h4,
+.OrderTotal > span {
+  flex-grow: 1;
+}
+.OrderTotal > h4 {
+  margin: 0;
+}
+.OrderTotal > span {
+  color: #444;
+  line-height: 2rem;
+  text-align: right;
+  padding-right: 3.5rem;
+}
+@media only screen and (max-width: 640px) {
+  .OrderTableWrapper {
+    width: 100%;
+    padding: 1rem;
+  }
+  .OrderTable {
+    padding: 0;
+  }
+}

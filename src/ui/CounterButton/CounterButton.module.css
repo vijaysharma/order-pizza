@@ -1,0 +1,30 @@
+.CounterButton {
+  color: #9b9b9f;
+  display: inline-block;
+}
+.CounterButton svg {
+  vertical-align: middle;
+}
+.CounterButton span {
+  font-size: 1rem;
+  padding: 0 0.75rem;
+  margin: 0 0.75rem;
+  display: inline-block;
+  vertical-align: middle;
+  width: 2.5rem;
+  text-align: center;
+}
+.Increment, .Decrement {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.Increment {
+  color: #e13b5b;
+}
+.Decrement {
+  color: #283688;
+}
+.DecrementDisabled {
+  color: #8b8b8b;
+  cursor: not-allowed;
+}

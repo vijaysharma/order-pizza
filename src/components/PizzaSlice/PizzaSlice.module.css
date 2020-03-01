@@ -1,0 +1,9 @@
+.PizzaSlice {
+  text-align: right;
+  padding: 1rem;
+}
+@media only screen and (max-width: 640px) {
+  .PizzaSlice {
+    padding: .75rem;
+  }
+}
